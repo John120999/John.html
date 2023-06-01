@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourism Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Banner styles */
+.banner {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f1f1f1;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  
+}
+
+/* About section styles */
+.about-container {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Destinations section styles */
+.destination-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.destination-card {
+  margin-bottom: 30px;
+}
+
+.destination-card img {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Contact section styles */
+.contact-container {
+  text-align: center;
+  padding: 50px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+</style>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="destinations">Destinations</a></li>
+        <li><a href="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="home">
+    <div class="banner">
+        <img src="More-fun.jpg" alt="Banner Image">
+      <h1>Welcome to Manila!</h1>
+      <p>Discover the beauty of Manila!</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-container">
+      <h2>About Us</h2>
+      <p>Here we will join you as we explore and Discover the History of The second most devastated City in the World during the World war 2</p>
+    </div>
+  </section>
+
+  <section id="destinations">
+    <div class="destination-container">
+      <h2>Popular Destinations</h2>
+      <div class="destination-card">
+        <img src="licensed-image.jpg" alt="Fort Santiago">
+        <h3>Fort Santiago</h3>
+        <p>Built in 1571, is a citadel built by Spanish navigator and governor Miguel Lopez de Legazpi for the newly establishe city of Manila.</p>
+      </div>
+      <div class="destination-card">
+        <img src="licensed-image4.jpg" alt="Rizal Park">
+        <h3>Rizal Park</h3>
+        <p>Also know as Luneta Park, this is the place where Jose Rizal was executed on December 30, 1896</p>
+      </div>
+      <div class="destination-card">
+        <img src="licensed-image3.jpg" alt="Intramuros">
+        <h3>Intramuros</h3>
+        <p>The walled city of Intramuros was the seat of political power when the Philippines was a Spanish colony.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Tourism Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
